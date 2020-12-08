@@ -16,5 +16,13 @@ namespace FengCode.Libs.Utils.Text
         {
             return SequentialGuidGenerator.NewSequentialGuid(SequentialGuidType.SequentialAsString).ToString();
         }
+
+        /// <summary>
+        /// 创建序列GUID
+        /// </summary>
+        public static Guid CreateSequential()
+        {
+            return SequentialGuidGenerator.NewSequentialGuid(SequentialGuidType.SequentialAsString);
+        }
     }
 }

@@ -76,13 +76,7 @@ namespace FengCode.Libs.Utils.Paging
         {
             get { return CurrentPage < TotalPages; }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="rowCount"></param>
-        /// <param name="currentPage"></param>
-        /// <param name="pageSize"></param>
-        /// <param name="maxPages"></param>
+
         public Pager(long rowCount, int currentPage = 1, int pageSize = 10, int maxPages = 5)
         {
             // calculate total pages
